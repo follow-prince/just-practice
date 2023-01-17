@@ -1,15 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{
+  useState
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-       
-      </header>
-    </div>
-  );
+} from "react";
+
+function App(){
+  const [count,setCount] = useState(0)
+  return{
+    
+  }
 }
-
-export default App;
